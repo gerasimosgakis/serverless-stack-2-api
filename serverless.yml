@@ -118,7 +118,7 @@ functions:
     handler: billing.main
     events:
       - http:
-          patch: billing
+          path: billing
           method: post
           cors: true
           authorizer: aws_iam
